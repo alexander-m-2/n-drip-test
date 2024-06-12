@@ -1,0 +1,24 @@
+.post {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: no-wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+  width: 150px;
+  height: 150px;
+  gap: 20px;
+
+  font-size: 10px;
+
+  cursor: pointer;
+
+  box-shadow: 2px 2px 4px 2px #888888;
+}
+
+.body {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
